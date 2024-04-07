@@ -1,10 +1,12 @@
 .stats-preview-card-component {
   display: flex;
   flex-direction: row;
+  gap: 1.333333333333333rem;
   background-color: var(--dark-desaturated-blue);
-  max-width: 1050px;
-  border-radius: 8px;
-  margin: 20px auto;
+  width: 90%;
+  max-width: 70rem;
+  border-radius: 0.5333333333333333rem;
+  margin: 1.333333333333333rem auto;
   overflow: hidden;
 }
 
@@ -38,14 +40,14 @@
 
 .stats {
   font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
-  font-size: 13.5px;
+  font-size: 0.9rem;
   color: var(--slightly-more-transparent-white);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  padding-right: 35px;
+  padding-right: 2.333333333333333rem;
 }
 
 .stats span {
@@ -54,7 +56,7 @@
   display: block;
   font-size: 1.6rem;
   color: var(--white);
-  margin-bottom: 4px;
+  margin-bottom: 0.2666666666666667rem;
 }
 
 .img-section {
