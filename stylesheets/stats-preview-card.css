@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 2.75rem;
   padding: 4.5rem 6.5rem 4rem 4rem;
 }
 
@@ -40,6 +40,7 @@
 .stats {
   font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
+  letter-spacing: 0.0666666666666667rem;
   color: var(--slightly-more-transparent-white);
   display: flex;
   flex-direction: row;
@@ -56,7 +57,7 @@
   display: block;
   font-size: 1.7rem;
   color: var(--white);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.425rem;
 }
 
 .img-section {
@@ -68,7 +69,7 @@
 .img-section::before {
   content: '';
   background-color: var(--soft-violet);
-  opacity: 0.4;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -104,21 +105,32 @@
 @media (max-width: 700px) {
   .stats-section h2 {
     font-size: 1.866666666666667rem;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+
+  .stats-section p {
+    line-height: 1.65;
   }
 
   .stats-preview-card-component {
     text-align: center;
     flex-direction: column-reverse;
-    max-width: 375px;
+    max-width: 25rem;
   }
 
   .stats-section {
-    padding: 2.4rem 2rem 2rem 2.5rem;
+    padding: 2.533333333333333rem 2rem 2.4rem 2rem;
   }
 
   .stats {
+    font-size: 0.8333333333333333rem;
     padding: 0;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 1.9rem;
+  }
+
+  .stats span {
+    font-size: 1.6rem;
   }
 }
