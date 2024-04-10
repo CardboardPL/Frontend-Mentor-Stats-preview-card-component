@@ -22,14 +22,14 @@
   padding: 4.5rem 6.5rem 4rem 4rem;
 }
 
-.stats-section h2 {
+.stats-section h1 {
   font-size: 2.433333333333333rem;
   font-weight: 700;
   color: var(--white);
   margin-bottom: 1.5rem;
 }
 
-.stats-section h2 > span {
+.stats-section h1 > span {
   color: var(--soft-violet);
 }
 
@@ -103,7 +103,7 @@
 }
 
 @media (max-width: 700px) {
-  .stats-section h2 {
+  .stats-section h1 {
     font-size: 1.866666666666667rem;
     line-height: 1.15;
     margin-bottom: 1rem;
